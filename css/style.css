@@ -1,0 +1,950 @@
+body {    
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 12px;
+}
+
+section H1 {
+    color: #0e2b4c;
+    font-weight: 600;
+    padding: 12px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
+
+
+
+/*---------------------Comienzo clases de  Header-------------------*/
+header {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.headerGrande1{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-image:url(../img/perito.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.headerGrande2{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-image:url(../img/chalten.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.headerGrande3{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-image:url(../img/puente.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.headerGrande4{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-image:url(../img/condor.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;            
+}
+
+.headerGrande5{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-image:url(../img/lago.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;            
+}
+
+.headerGrandeLogo{
+    display: inline-block;
+    width: 12%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255,255);
+    background-image:url(../img/viajAr_logo.png);
+    background-repeat:no-repeat;
+    background-size: 98% 100%;
+           
+}
+
+/*----------------------------------Fin clases de Header--------------------------------*/
+
+
+
+/*--------------------------------- Comienzo clases del Footer--------------------------*/
+footer {
+    background-color: #0e2b4c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+footer a{
+    color: whitesmoke !important;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.footer_principal{
+    display: inline-flex;
+    justify-content:space-around;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.footer_interno{
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer_interno li{
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+} 
+
+.footer_interno_links_redes {/* agregado*/
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer_interno_links {  /*agregado*/
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer_interno_links ul{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer_interno_links_redes ul{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.footer_interno ul{
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    
+}
+
+
+.footer_interno_links li{
+    height: 25px;
+}
+
+.footer_interno_links_redes li{
+    height: 35px;
+}
+
+.footer_interno_links ul li a2 {
+    font-size: 17px;
+    font-weight: 600 ;
+    padding-bottom: 5px;
+    color: rgb(90, 229, 244);
+}
+
+.footer_interno_links a{
+    margin-left: 10px;
+}
+
+.footer_interno_links a:hover{    
+    color: rgb(90, 229, 244) !important;
+    text-decoration: underline;
+    font-style:italic;
+}
+
+.footer_interno_links_redes a:hover{    
+    color: rgb(90, 229, 244) !important;
+}
+
+/*---------------------------------  Fin clases del Footer-------------------------*/
+
+
+
+/*-------------------------Comienzo clases de  index.html--------------------------*/
+
+.contenedor_con_margen{
+    display:flex;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.index_columna_con_foto{
+    width:100%;
+    height: 300px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;    
+    background-size: cover;
+    background-image:url(../img/panoramica1.jpg);
+    background-repeat:no-repeat;
+    text-align: center;
+    vertical-align:bottom;
+    
+}
+
+.index_columna_con_foto h2{
+    color: whitesmoke;
+    font-size: 46px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.index_columna_con_foto p{
+    color: whitesmoke;
+    vertical-align:text-bottom;
+    font-size: 28px;
+    padding-top: 30px;
+    margin:0px;
+}
+
+.index_columna{
+    width: 30%;
+    max-width:420px;
+    min-width: 280px;
+    min-height: 280px;
+    border: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    border-width: 0px;
+}
+
+
+.index_columna:hover {
+    transform: scale(1.03);
+}
+
+
+.index_columna h2{
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+    text-align: center;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    border-width: 0px;
+}
+
+.index_columna h3{
+    height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 8px;
+    text-align: center;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: grey(0, 0, 0);
+}
+
+
+.index_columna_interna_foto{
+    display:inline-flex;
+    width: 48%;
+    min-width: 200px;
+    height: 200px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-size: 100% 100%;
+}
+
+.index_columna_interna_texto{
+    display: inline-flex;
+    width: 48%;
+    min-height: 200px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    align-items:center;
+    vertical-align:top;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.index_columna_interna_texto p{
+    display: flex;
+}
+
+.destinos_recomendados{           /*Color texto Destinos recomendados */
+    color: #131212;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.destino_recomendado {
+    width: 240px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-style: solid;
+    border-color: grey(236, 17, 17);
+    border-width: 0px;
+    padding: 24px;
+    transition: background-color 1.5s ; /*cambia el color del fondo en 1.5 segundos*/
+}
+
+.destino_recomendado:hover {
+    transform: scale(1.04);
+    background-color: rgba(115, 148, 174, 0.684);
+}
+
+
+/*------------------------Fin de clases de  index.html-------------------------*/
+
+
+
+/*----------------------- clases de Nosotros.html------------------------------ */
+
+.contenedor_flex_sin_margen{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+.nosotros_columna_con_foto{
+    width:100%;
+    height: 300px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;    
+    background-size: cover;
+    background-image:url(../img/panoramica1.jpg);
+    background-repeat:no-repeat;
+    text-align: center;
+    vertical-align:bottom;
+}
+
+.nosotros_columna_con_foto h2{
+    color: whitesmoke;
+    font-size: 46px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.nosotros_columna_con_foto p{
+    color: whitesmoke;
+    vertical-align:text-bottom;
+    font-size: 28px;
+    padding-top: 30px;
+    margin:0px;
+}
+
+.nosotros_columna{
+    width:100%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;        
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px;
+    vertical-align:bottom;
+    text-align: center;
+}
+
+.nosotros_columna h2{
+    color: #2d99dc;
+    font-size: 36px;
+}
+
+.nosotros_columna p{
+    color: #0e2b4c;
+    vertical-align:text-bottom;
+    font-size: 18px;    
+}
+/*---------------- fin de clases de nosotros.html-----------------*/
+
+
+
+
+/*---------------------------Comienzo de clases de la barra de Navegacion------------*/
+
+/* Color de fondo de la barra */
+.topnav {
+    background-color: #0e2b4c;
+    overflow: hidden;
+    
+}
+
+/* Estilo de los vínculos */
+.topnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* Cambia el estilo en hover */
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: #2d99dc;
+}
+
+/* Define el estilo de la página activa */
+.topnav a.activa {
+    background-color:#2d99dc;
+}
+
+/* Oculta el ícono de hamburguesa en pantallas grandes */
+.topnav .icono {
+    display: none;
+}
+
+/*---------------------------Fin de clasesde la barra de Navegacion------------*/
+
+
+
+/*---------------------------Comienzo de clasesde Destinos.Hml-----------------*/
+
+
+
+
+.destino {
+    width: 240px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    padding: 24px;
+    transition: background-color 1.5s ; /*cambia el color del fondo en 1.5 segundos*/
+}
+
+.destino:hover {
+    transform: scale(1.04);
+    background-color: rgba(115, 148, 174, 0.684);
+}
+
+#grilla-destino {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.info_clima{
+    font-size: 13px;
+ 
+}
+
+
+
+/*---------------------------Fin  de clasesde Destinos.Hml-----------------*/
+
+
+
+
+.acceso a{
+    color: #0e2b4c;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/*----------------- Configuraciones responsivas------------------ */
+
+@media screen and (min-width: 1024px){
+
+    #centrado { width: 1024px; margin: 0 auto; }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .headerGrande1{        
+        width: 29%;
+        background-size: cover;
+    }
+
+    .headerGrande2{
+        width: 29%;
+        background-size: cover;
+    }
+
+    .headerGrande3{
+        width: 29%;
+        background-size: cover;
+    }
+
+    .headerGrande4{
+        width: 0%;
+    }
+
+    .headerGrandeLogo{
+        width:124px ;
+    }
+
+   #centrado { width: 100%; margin: 0 auto; }
+
+}
+ 
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    
+    .headerGrande1{
+        width: 43%;
+        height: 115px;
+        background-size:cover;
+    }
+
+    .headerGrande2{
+        width: 43%;
+        height: 115px;
+        background-size: cover;
+    }
+    .headerGrande3{
+        width: 0%;
+        height: 115px;
+    }
+
+    .headerGrande4{
+        width: 0%;
+        height: 115px;
+    }
+
+    .headerGrandeLogo{
+        width: 100px;
+        min-width: 100px;
+        height: 115px;
+        background-image:url(../img/viajAr_logo_chico.png); 
+        background-size: 100% 100%;
+
+    }
+    
+
+
+    #centrado { width: 100%; margin: 0 auto; }
+
+    
+    .topnav a:not(.activa) {
+        display: none;
+    }
+    
+    .topnav a.icono {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icono {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .destino {
+        width: 160px;
+        padding: 12px;
+    }
+
+
+    footer {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_principal {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer_interno {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        
+    }    
+    
+    .index_columna_con_foto{
+        width:100%;
+        height: 250px;        
+    }
+    
+    .index_columna_con_foto h2{
+        font-size: 38px;
+    }
+    
+    .index_columna_con_foto p{
+        font-size: 23px;
+        padding-top: 30px;
+
+    }
+
+    .nosotros_columna_con_foto{
+        width:100%;
+        height: 250px;        
+    }
+    
+    .nosotros_columna_con_foto h2{
+        font-size: 38px;
+    }
+    
+    .nosotros_columna_con_foto p{
+        font-size: 23px;
+        padding-top: 30px;
+
+    }
+
+    .footer_interno_links_redes {
+        text-align: center;
+    }
+
+    .footer_interno_links_redes ul li{
+        display: inline;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    
+    .footer_interno_links {
+        text-align:center;
+        margin:0px;
+    }
+
+    .footer_interno_links ul li{
+        display: inline;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        
+                
+    }
+
+    .footer_interno_links ul li a{
+        display: inline;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 10px;
+        font-size: 14px;   
+    }
+    .footer_interno ul li a {
+        font-size: 14px;
+    } 
+
+    .footer_interno_links ul li a2 {
+        display: block;
+        font-size: 22px;
+        font-weight: 600 ;
+        padding-bottom: 5px;
+    }
+    
+}
+
+/*----------------------- breack point celular ---------------------*/
+
+@media screen and (max-width: 320px) {
+    
+    .headerGrande1{   
+        width: 35%;
+        height: 115px;
+        background-size:cover;
+    }
+
+    .headerGrande2{    
+        width: 35%;
+        height: 115px;
+        background-size: cover;
+    }
+
+    .headerGrande3{
+        width: 0%;
+        height: 115px;
+    }
+
+    .headerGrande4{
+        width: 0%;
+        height: 115px;
+    }
+
+    .headerGrande5{
+        width: 0%;
+        height: 115px;
+    }
+
+    .headerGrandeLogo{
+        width: 30%;
+        height: 115px;
+        background-image:url(../img/viajAr_logo_chico.png); 
+        background-size: cover;
+    }
+       
+    
+     section {
+        padding: 4px;
+    }
+
+    section h1 {
+        padding: 1px;
+    }
+
+    section article img {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .info-destino {
+        margin-bottom: 20px;
+        border-bottom: gray;
+    
+    }
+
+    .destino {
+        border-bottom-style: solid;
+        border-bottom-color: gray;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 160px;
+    }
+    
+    /* -----------agregado para achicar barnav en celulares----------------*/
+    .topnav a {
+        padding: 8px 12px;
+        font-size: 0.8em;
+    }
+    
+    /* -------------------------------------------------------------------*/
+    
+    
+    .topnav a:not(.activa) {
+        display: none;
+    }
+    
+    .topnav a.icono {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icono {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .footer_principal {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer_interno a {
+        font-size: 13px;
+    } 
+    
+    .footer_interno_links_redes {
+        text-align: center;
+    }
+    
+    .footer_interno_links {
+        text-align: center;
+    }
+
+    .footer_interno_links_redes ul li{
+        display: inline;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .footer_interno_links ul li{
+        display: inline;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+                
+    }
+    
+    .footer_interno_links ul li a{
+        font-size: 14px;
+        padding-left: 4px;
+        padding-right: 4px;                
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .footer_interno_links ul li a2 {
+        display: block;
+        height: 20px;
+        font-size: 22px;
+        font-weight: 600 ;
+        padding-bottom: 5px;
+    }
+
+    .footer_interno ul li a {
+        font-size: 14px;
+    } 
+    
+    #centrado { width: 100%; margin: 0 auto; }
+
+    .destinos_recomendados {           
+        color: #131212;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        text-align: center;        
+    }
+
+
+    .index_columna_con_foto{
+        width:100%;
+        height: 180px;
+        background-size: cover;        
+    }
+
+    .index_columna_con_foto h2{
+        font-size: 30px;
+    }
+
+    .index_columna_con_foto p{
+        font-size: 16px;
+        padding-top: 18px;
+    }
+        
+    .nosotros_columna_con_foto{
+        width:100%;
+        height: 180px;
+        background-size: cover;        
+    }
+
+    .nosotros_columna_con_foto h2{
+        font-size: 30px;
+    }
+    
+    .nosotros_columna_con_foto p{
+        font-size: 16px;
+        padding-top: 18px;
+    }
+    
+    
+    
+}
