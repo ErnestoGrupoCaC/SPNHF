@@ -240,7 +240,8 @@ footer a{
     margin: 0px;
     border-radius: 0px;    
     background-size: cover;
-    background-image:url(../img/panoramica1.jpg);
+    background-image:url(../img/atmosfera.jpg);
+    /*background-image:url(../img/panoramica1.jpg);*/
     background-repeat:no-repeat;
     text-align: center;
     vertical-align:bottom;
